@@ -4,25 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- не забыть отключить -->
-    <meta name="robots" content="none" />
-    <!-- описание страницы -->
     <meta name="Description" content="paraplana.net контакты для связи" />
     <title>Paraplana.net - Контакты</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20211228184638" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css?_v=20211228184638">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
 <body class="contact">
     <div class="_body-wrapper">
-         <!-- Rating Mail.ru counter -->
-  <!-- <script>
+            <!-- Rating Mail.ru counter -->
+    <script>
     var _tmr = window._tmr || (window._tmr = []);
     _tmr.push({id: "1702789", type: "pageView", start: (new Date()).getTime()});
     (function (d, w, id) {
@@ -34,8 +31,9 @@
     })(document, window, "topmailru-code");
     </script><noscript><div>
         <img src="https://top-fwz1.mail.ru/counter?id=1702789;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
-    </div></noscript> -->
- <!-- Rating Mail.ru counter -->
+    </div></noscript>
+ <!-- Rating Mail.ru counter -->  
+
  <header class="header contact__header">
      <div class="header__wrapper wrapper">
          <div class="header__body">
@@ -124,14 +122,11 @@
                 </a>
             </div>
             <div class="footer__bottom">
-                <!-- удалить временную заглушку -->
-                <a class="footer__metrik">
-                    <img style=" background-color: blue" src="#" alt="metric"></a>
-                    <!-- подключить рабочий счетчик -->
-                <!-- <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
+                
+                <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
-                </a> -->
+                </a>
 
                 <p class="footer__copy">© MELEO Production 2007-<?php echo (strftime('%Y')); ?></p>
 
@@ -147,7 +142,7 @@
 
 
 
-<script src="js/script.min.js"></script>
+<script src="js/script.min.js?_v=20211228184638"></script>
 </body>
 
 </html>
