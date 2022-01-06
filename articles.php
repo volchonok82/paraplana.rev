@@ -4,37 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- не забыть отключить -->
+    <meta name="robots" content="none" />
+    <!-- описание страницы -->
     <meta name="Description" content="Интересная информация про паралеты и прапланы" />
     <title>Paraplana.net - Интересное</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20211228184638" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220106150643" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20211228184638">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220106150643">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
 <body class="articles">
     <div class="_body-wrapper">
-            <!-- Rating Mail.ru counter -->
-    <script>
-    var _tmr = window._tmr || (window._tmr = []);
-    _tmr.push({id: "1702789", type: "pageView", start: (new Date()).getTime()});
-    (function (d, w, id) {
-        if (d.getElementById(id)) return;
-        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
-        ts.src = "https://top-fwz1.mail.ru/js/code.js";
-        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
-        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
-    })(document, window, "topmailru-code");
-    </script><noscript><div>
-        <img src="https://top-fwz1.mail.ru/counter?id=1702789;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
-    </div></noscript>
- <!-- Rating Mail.ru counter -->  
+        
 
- <header class="header articles__header">
+ <header class="header articles__header _lockfix">
      <div class="header__wrapper wrapper">
          <div class="header__body">
              <div class="header__menu menu">
@@ -194,18 +183,21 @@
                 </a>
             </div>
             <div class="footer__bottom">
-                
-                <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
+                <!-- удалить временную заглушку -->
+                <a class="footer__metrik">
+                    <img style=" background-color: blue" src="#" alt="metric"></a>
+                    <!-- подключить рабочий счетчик -->
+                <!-- <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
-                </a>
+                </a> -->
 
                 <p class="footer__copy">© MELEO Production 2007-<?php echo (strftime('%Y')); ?></p>
 
                 <a href="http://jurist-himki.ru" class="footer__lawyer" target="_blank" rel="noopener noreferrer">
                     <span> юрист г.Химки</span></a>
             </div>
-            <a href="#" class="up-btn"><span class="visually-hidden">наверх</span></a>
+            <a href="#" id="btnUp"><span class="visually-hidden">наверх</span></a>
         </div>
     </div>
 </footer>
@@ -214,7 +206,7 @@
 
 
 
-<script src="js/script.min.js?_v=20211228184638"></script>
+<script src="js/script.min.js?_v=20220106150643"></script>
 </body>
 
 </html>

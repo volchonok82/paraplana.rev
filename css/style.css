@@ -630,7 +630,7 @@ iframe {
   background-color: #007bff;
 }
 
-.up-btn {
+#btnUp {
   position: fixed;
   z-index: 9;
   bottom: 50px;
@@ -644,13 +644,13 @@ iframe {
   transition: all 0.3s ease 0s;
 }
 
-.up-btn._show {
+#btnUp._visible {
   opacity: 0.6;
   visibility: visible;
 }
 
-.up-btn:hover,
-.up-btn:focus {
+#btnUp:hover,
+#btnUp:focus {
   opacity: 1;
 }
 
@@ -812,7 +812,7 @@ iframe {
   padding: 0.9375rem 0;
   opacity: 1;
   visibility: visible;
-  transition: all 0.5s ease 0s;
+  transition: opacity 0.5s, transform 0.5s, visibility 0.5s;
 }
 
 .header._vis {
@@ -1832,11 +1832,11 @@ iframe {
     font-size: calc(14px + 4 * ((100vw - 320px) / 880));
   }
 
-  .up-btn {
+  #btnUp {
     bottom: calc(5px + 45 * ((100vw - 320px) / 880));
   }
 
-  .up-btn {
+  #btnUp {
     right: calc(5px + 45 * ((100vw - 320px) / 880));
   }
 
