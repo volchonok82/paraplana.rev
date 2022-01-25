@@ -4,67 +4,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- не забыть отключить -->
-    <meta name="robots" content="none" />
-    <!-- описание страницы -->
+  
     <meta name="Description" content="Интересная информация про паралеты и прапланы" />
     <title>Paraplana.net - Интересное</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220106150643" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220106150643">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
 <body class="articles">
     <div class="_body-wrapper">
-        
+            <!-- Rating Mail.ru counter -->
+    <script>
+    var _tmr = window._tmr || (window._tmr = []);
+    _tmr.push({id: "1702789", type: "pageView", start: (new Date()).getTime()});
+    (function (d, w, id) {
+        if (d.getElementById(id)) return;
+        var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+        ts.src = "https://top-fwz1.mail.ru/js/code.js";
+        var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+        if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+    })(document, window, "topmailru-code");
+    </script><noscript><div>
+        <img src="https://top-fwz1.mail.ru/counter?id=1702789;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" />
+    </div></noscript>
+ <!-- Rating Mail.ru counter -->  
 
- <header class="header articles__header _lockfix">
-     <div class="header__wrapper wrapper">
-         <div class="header__body">
-             <div class="header__menu menu">
-                 <a href="index.php" class="header__logo" title="На главную">
-                     <picture>
-                         <source srcset="img/paralet_logo.webp" type="image/webp">
-                         <img src="img/paralet_logo.png" alt="паралет">
-                     </picture>
-                 </a>
-                 <nav class="menu__body">
-                     <ul class="menu__list">
-                         <li class="menu__item"><a href="paralet.php" class="menu__link">Паралеты</a></li>
-                         <li class="menu__item"><a href="paraplan.php" class="menu__link">Парапланы</a></li>
-                         <li class="menu__item"><a href="aerosani.php" class="menu__link">Аэросани</a></li>
-                         <li class="menu__item"><a href="spare-parts.php" class="menu__link">Запчасти</a></li>
-                         <li class="menu__item"><a href="training.php" class="menu__link">Обучение</a></li>
-                         <li class="menu__item"><a href="photo.php" class="menu__link">Фото/Видео</a></li>
-                         <li class="menu__item"><a href="contact.php" class="menu__link">Контакты</a></li>
-                         <li class="menu__item">
-                             <button class="menu__link _arrow">Интересное</button>
-                             <ul class="menu__sub-list">
-                                 <li><a href="articles.php" class="menu__sub-link">Полезные статьи</a></li>
-                                 <li><a href="http://paraplan.ru" target="_blank" rel="noopener noreferrer"
-                                         class="menu__sub-link">Форумы Paraplan.ru</a></li>
-                                 <li><a href="http://airsport.ru" target="_blank" rel="noopener noreferrer"
-                                         class="menu__sub-link">Air Sport Russia</a></li>
-                                 <li><a href="http://www.moto4x4.ru" target="_blank" rel="noopener noreferrer"
-                                         class="menu__sub-link">Мотосалон Discovery</a></li>
-                                 <li><a href="http://www.asa-paragliding.ru/" target="_blank" rel="noopener noreferrer"
-                                         class="menu__sub-link">ASA</a></li>
-                             </ul>
-                         </li>
-                     </ul>
-                 </nav>
-                 <button type="button" class="menu__icon icon-menu" aria-expanded="false" aria-label="Toggle navigation">
+<header class="header articles__header lockfix">
+    <div class="header__wrapper wrapper">
+        <div class="header__body">
+            <div class="header__menu menu">
+                <a href="index.php" class="header__logo" title="На главную">
+                    <picture>
+                        <source srcset="img/paralet_logo.webp" type="image/webp">
+                        <img src="img/paralet_logo.png" alt="паралет">
+                    </picture>
+                </a>
+                <nav class="menu__body">
+                    <ul class="menu__list" data-spollers>
+                        <li class="menu__item"><a href="paralet.php" class="menu__link">Паралеты</a></li>
+                        <li class="menu__item"><a href="paraplan.php" class="menu__link">Парапланы</a></li>
+                        <li class="menu__item"><a href="aerosani.php" class="menu__link">Аэросани</a></li>
+                        <li class="menu__item"><a href="spare-parts.php" class="menu__link">Запчасти</a></li>
+                        <li class="menu__item"><a href="training.php" class="menu__link">Обучение</a></li>
+                        <li class="menu__item"><a href="photo.php" class="menu__link">Фото/Видео</a></li>
+                        <li class="menu__item"><a href="contact.php" class="menu__link">Контакты</a></li>
+                        <li data-spollers class="menu__item menu__item--spoller">
+                            <div class="menu__sub-block">
+                                <button type="button" data-spoller="hover" class="menu__link menu__link--arrow">Интересное</button>
+                                <ul class="menu__sub-list">
+                                    <li><a href="articles.php" class="menu__sub-link">Полезные статьи</a></li>
+                                    <li><a href="http://paraplan.ru" target="_blank" rel="noopener noreferrer" class="menu__sub-link">Форумы Paraplan.ru</a></li>
+                                    <li><a href="http://airsport.ru" target="_blank" rel="noopener noreferrer" class="menu__sub-link">Air Sport Russia</a></li>
+                                    <li><a href="http://www.moto4x4.ru" target="_blank" rel="noopener noreferrer" class="menu__sub-link">Мотосалон Discovery</a></li>
+                                    <li><a href="http://www.asa-paragliding.ru/" target="_blank" rel="noopener noreferrer" class="menu__sub-link">ASA</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="menu__icon icon-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                 </button>
-             </div>
-         </div>
-     </div>
- </header>
+            </div>
+        </div>
+    </div>
+</header>
         <main class="articles__main main-articles">
             <div class="main-articles__wrapper wrapper">
                 <h1 class="main-articles__title _title">Полезная информация о паралетах и их эксплуатации, которая может
@@ -183,14 +193,11 @@
                 </a>
             </div>
             <div class="footer__bottom">
-                <!-- удалить временную заглушку -->
-                <a class="footer__metrik">
-                    <img style=" background-color: blue" src="#" alt="metric"></a>
-                    <!-- подключить рабочий счетчик -->
-                <!-- <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
+              
+                <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
-                </a> -->
+                </a>
 
                 <p class="footer__copy">© MELEO Production 2007-<?php echo (strftime('%Y')); ?></p>
 
@@ -206,7 +213,7 @@
 
 
 
-<script src="js/script.min.js?_v=20220106150643"></script>
+<script src="js/script.min.js?_v=20220125220710"></script>
 </body>
 
 </html>

@@ -9,8 +9,6 @@
   padding-right: 15px;
 }
 
-/**/
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -598,7 +596,7 @@ iframe {
 ._title {
   font-size: 2.625rem;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: clamp(1.25rem, 1.0227272727rem + 1.1363636364vw, 1.875rem);
 }
 
 ._sub-title {
@@ -616,7 +614,7 @@ iframe {
   width: -moz-max-content;
   width: max-content;
   padding: 0.625rem 1.25rem;
-  font-size: 18px;
+  font-size: clamp(0.875rem, 0.7840909091rem + 0.4545454545vw, 1.125rem);
   color: #fff;
   background-color: #1d5dc0;
   border: 1px solid #1d5dc0;
@@ -633,8 +631,8 @@ iframe {
 #btnUp {
   position: fixed;
   z-index: 9;
-  bottom: 50px;
-  right: 50px;
+  bottom: clamp(0.3125rem, -0.7102272727rem + 5.1136363636vw, 3.125rem);
+  right: clamp(0.3125rem, -0.7102272727rem + 5.1136363636vw, 3.125rem);
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 50%;
@@ -871,14 +869,8 @@ iframe {
   justify-content: center;
 }
 
-.menu__item._active .menu__sub-list {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: all;
-}
-
-.menu__item._active ._arrow::after {
-  transform: rotate(180deg);
+.menu__item--spoller {
+  position: relative;
 }
 
 .menu__link {
@@ -891,43 +883,36 @@ iframe {
   white-space: nowrap;
 }
 
-.menu__link._arrow {
+.menu__link--arrow {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
-.menu__link._arrow::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0;
-  margin-left: 0.3125rem;
-  border-left: 0.3125rem solid transparent;
-  border-right: 0.3125rem solid transparent;
-  border-top: 0.625rem solid #fff;
+.menu__link--arrow::after {
+  content: "▼";
+  font-size: 0.9375rem;
+  margin: 0.125rem 0 0 0.3125rem;
   transition: transform 0.3s ease 0s;
+}
+
+.menu__link--arrow._active::after {
+  transform: rotate(180deg);
 }
 
 .menu__sub-list {
   position: absolute;
-  list-style: none;
-  top: 100%;
   right: 0;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  background-color: #1d5dc0;
   padding: 0.9375rem;
+  list-style: none;
+  background-color: #1d5dc0;
   border-radius: 10px;
-  transition: all 0.3s ease 0s;
 }
 
 .menu__sub-list li {
-  padding: 0.625rem 0;
+  padding: 0.5555555556em;
 }
 
 .menu__sub-link {
@@ -1024,7 +1009,7 @@ iframe {
   margin: 0 auto;
   font-size: 1.375rem;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: clamp(1.25rem, 0.7954545455rem + 2.2727272727vw, 2.5rem);
 }
 
 .main-paralet__row {
@@ -1345,7 +1330,7 @@ iframe {
 
 .main-paraplan h3,
 .main-paraplan__price {
-  font-size: 28px;
+  font-size: clamp(1.125rem, 0.8977272727rem + 1.1363636364vw, 1.75rem);
   text-align: center;
   margin-bottom: 1.25rem;
 }
@@ -1823,33 +1808,6 @@ iframe {
   white-space: nowrap;
 }
 
-@media (max-width: 1200px) {
-  ._title {
-    margin-bottom: calc(20px + 10 * ((100vw - 320px) / 880));
-  }
-
-  ._btn {
-    font-size: calc(14px + 4 * ((100vw - 320px) / 880));
-  }
-
-  #btnUp {
-    bottom: calc(5px + 45 * ((100vw - 320px) / 880));
-  }
-
-  #btnUp {
-    right: calc(5px + 45 * ((100vw - 320px) / 880));
-  }
-
-  .main-paralet__text {
-    margin-bottom: calc(20px + 20 * ((100vw - 320px) / 880));
-  }
-
-  .main-paraplan h3,
-  .main-paraplan__price {
-    font-size: calc(18px + 10 * ((100vw - 320px) / 880));
-  }
-}
-
 @media screen and (max-width: 991.9px) {
   .main-index__card {
     width: calc(50% - 20px);
@@ -2091,7 +2049,7 @@ iframe {
   .menu__item {
     width: 100%;
     margin: 0;
-    padding: 1.375rem 0;
+    padding: 0.625em;
     text-align: center;
     box-shadow: 0px 1px 0 0 #000000, inset 0px 1px 0 0 rgba(255, 255, 255, 0.15);
   }
