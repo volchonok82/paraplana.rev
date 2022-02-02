@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="аэросани, аэроглиссер, аэросани купить, аэроглиссер купить, аэроглиссер Протон, аэросани Протон, Протон" />
     <title>Paraplana.net - Аэросани</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220125220710" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220202192432" />
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
@@ -89,7 +88,7 @@
                     <ul class="proton__list">
                         <li>Дно защищено листами пнд.</li>
                         <li>Амортизация баллонов позволяет более комфортно передвигаться по неровностям с высокой скоростью</li>
-                        <li>Аэроглиссер "Протон" выполнен в вариантах с отапливаемой кабиной и без кабины</li> 
+                        <li>Аэроглиссер "Протон" выполнен в вариантах с отапливаемой кабиной и без кабины</li>
                         <li>Количество мест 3+</li>
                         <li>Среда эксплуатации: вода, лед, снег</li>
                         <li>Документы для поставновки на учет: ДКП, сертификат, паспорт мотора и изделия</li>
@@ -99,12 +98,40 @@
 
                     <div class="proton__video">
                         <h3>Аэроглиссер "Протон" видео</h3>
-                        <div class="proton__video-items">
-                            <div class="proton__video-item">
-                                <iframe  src="https://www.youtube.com/embed/_SenGUJWcyE" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="proton__videos">
+                            <div class="proton__video-container">
+                                <div data-lazy-video class="proton__video video">
+                                    <a class="video__link _exc" href="https://www.youtube.com/embed/_SenGUJWcyE" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source srcset="https://i.ytimg.com/vi_webp/_SenGUJWcyE/maxresdefault.webp" type="image/webp">
+                                            <img class="video__media" src="https://i.ytimg.com/vi/_SenGUJWcyE/maxresdefault.jpg" alt="'Аэро кабанчик' по свежему снегу">
+                                        </picture>
+                                    </a>
+                                    <button class="video__button" aria-label="Play video">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                            </path>
+                                            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="proton__video-item">
-                                <iframe  src="https://www.youtube.com/embed/Dy_IjS47er4" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="proton__video-container">
+                                <div data-lazy-video class="proton__video video">
+                                    <a class="video__link _exc" href="https://www.youtube.com/embed/Dy_IjS47er4" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source srcset="https://i.ytimg.com/vi_webp/Dy_IjS47er4/sddefault.webp" type="image/webp">
+                                            <img class="video__media" src="https://i.ytimg.com/vi/Dy_IjS47er4/sddefault.jpg" alt="Яр 2022. Второй день">
+                                        </picture>
+                                    </a>
+                                    <button class="video__button" aria-label="Play video">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                            </path>
+                                            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -231,7 +258,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -251,7 +277,7 @@
     
 
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220125220710"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220202192432"></script>
 <script>
     Fancybox.bind("#fa a", {
         groupAll: true,
@@ -259,7 +285,7 @@
 </script>
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
 </body>
 
 </html>

@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="Двухместные паралеты, патриот-2, комплектации аппаратов" />
     <title>Paraplana.net - Двухместные паралеты</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
     
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20220125220710" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20220202192432" />
         
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
@@ -87,8 +86,10 @@
                     "Люкс" (там он уже есть). Цены на паралёты указаны без учёта стоимости крыла.
                 </p>
                 <a class="main-double__link _price" href="paraplan.php">Новые тандемные крылья от&nbsp;103&nbsp;000&nbsp;т.р.</a>
+
                 <section class="main-double__patriot-2">
                     <h2 class="main-double__sub-title _sub-title">Патриот - 2</h2>
+
                     <div class="main-double__images">
                         <div class="main-double__img">
                             <a href="img/paralet/patriot-2_02.jpg" title="посмотреть увеличенную фотографию" target="_blank" rel="noopener noreferrer">
@@ -102,7 +103,7 @@
                             <a href="img/paralet/patriot-2_03.jpg" title="посмотреть увеличенную фотографию" target="_blank" rel="noopener noreferrer">
                                 <picture>
                                     <source srcset="img/paralet/patriot-2_03_mini.webp" type="image/webp">
-                                    <img src="img/paralet/patriot-2_03_mini.jpg" loading="lazy" alt="паралет патриот в мастерской">
+                                    <img src="img/paralet/patriot-2_03_mini.jpg" loading="lazy" alt="паралет патриот на открытой площадке">
                                 </picture>
                             </a>
                         </div>
@@ -110,7 +111,7 @@
                             <a href="img/paralet/patriot-2_05.jpg" title="посмотреть увеличенную фотографию" target="_blank" rel="noopener noreferrer">
                                 <picture>
                                     <source srcset="img/paralet/patriot-2_05_mini.webp" type="image/webp">
-                                    <img src="img/paralet/patriot-2_05_mini.jpg" loading="lazy" alt="паралет патриот в мастерской">
+                                    <img src="img/paralet/patriot-2_05_mini.jpg" loading="lazy" alt="паралет патриот на поле">
                                 </picture>
                             </a>
                         </div>
@@ -118,7 +119,7 @@
                             <a href="img/paralet/patriot-2_01.jpg" title="посмотреть увеличенную фотографию" target="_blank" rel="noopener noreferrer">
                                 <picture>
                                     <source srcset="img/paralet/patriot-2_01_mini.webp" type="image/webp">
-                                    <img src="img/paralet/patriot-2_01_mini.jpg" loading="lazy" alt="паралет патриот в мастерской">
+                                    <img src="img/paralet/patriot-2_01_mini.jpg" loading="lazy" alt="паралет патриот вид сбоку">
                                 </picture>
                             </a>
                         </div>
@@ -131,10 +132,38 @@
                             </a>
                         </div>
                         <div class="main-double__img">
-                            <iframe src="https://www.youtube.com/embed/eDcwb0SAiVU" loading="lazy" title="YouTube video"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <a href="img/paralet/patriot-2_04.jpg" title="посмотреть увеличенную фотографию" target="_blank" rel="noopener noreferrer">
+                                <picture>
+                                    <source srcset="img/paralet/patriot-2_04_mini.webp" type="image/webp">
+                                    <img src="img/paralet/patriot-2_04_mini.jpg" loading="lazy" alt="паралет патриот на открытой площадке вид сбоку" >
+                                </picture>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="main-double__videos">
+                        <div class="main-double__video-container">
+                            <div data-lazy-video class="main-double__video video">
+                                <a class="video__link _exc" href="https://www.youtube.com/embed/eDcwb0SAiVU" target="_blank" rel="noopener noreferrer">
+                                    <picture>
+                                        <source srcset="https://i.ytimg.com/vi_webp/eDcwb0SAiVU/sddefault.webp" type="image/webp">
+                                        <img class="video__media" src="https://i.ytimg.com/vi/eDcwb0SAiVU/sddefault.jpg" alt="Полеты июль 2021" loading="lazy">
+                                    </picture>
+                                </a>
+                                <button class="video__button" aria-label="Play video">
+                                    <svg width="68" height="48" viewBox="0 0 68 48">
+                                        <path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                        </path>
+                                        <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </section>
+
+
                 <h2 class="main-double__sub-title _sub-title">
                     Комплектации аппаратов:
                 </h2>
@@ -352,7 +381,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -369,12 +397,12 @@
 </footer>
     </div>
     
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20220125220710"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20220202192432"></script>
 
 
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
 
 </body>
 

@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="Запасные части и комплектующие для паралётов, силовая установка РМЗ-500" />
     <title>Paraplana.net - Комплектующие</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
     
@@ -122,7 +121,7 @@
                             Силовые установки для лодок и аэросаней, кит наборы. Посмотреть здесь: <a href="https://aerolodka.net/" target="_blank" rel="noopener noreferrer" title="перейти на сайт Aerolodka.net">Aerolodka.net</a>
                         </p>
                         <div class="aerolodka__video">
-                            <p class="aerolodka__text">Посмотреть видео:</p>
+                            <p class="aerolodka__text">Посмотреть видео на YouTube:</p>
                             <ul class="aerolodka__list">
                                 <li><a href="https://www.youtube.com/user/MrSlavyan" target="_blank" rel="noopener noreferrer" title="посмотерть видео на youtube">
                                   <picture>
@@ -461,7 +460,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -481,7 +479,7 @@
 
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
     </body>
     
     </html>

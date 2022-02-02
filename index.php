@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="Парапланы, паралеты и запчасти к ним, аэросани, аэроглиссер Протон, обучение и полезные статьи" />
     <title>Paraplana.net - Главная страница</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
@@ -160,7 +159,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -181,7 +179,7 @@
 
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
 </body>
 
 </html>

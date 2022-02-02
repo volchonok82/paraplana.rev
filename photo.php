@@ -4,22 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="фотографии паралетов и парапланов, видео полетов на паралете" />
     <title>Paraplana.net - Фото и видео</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220125220710" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css?_v=20220202192432" />
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
-<body class="photo">
+<body class="media">
     <div class="_body-wrapper">
             <!-- Rating Mail.ru counter -->
     <script>
@@ -37,7 +36,7 @@
     </div></noscript>
  <!-- Rating Mail.ru counter -->  
 
-<header class="header photo__header lockfix">
+<header class="header media__header lockfix">
     <div class="header__wrapper wrapper">
         <div class="header__body">
             <div class="header__menu menu">
@@ -77,44 +76,97 @@
         </div>
     </div>
 </header>
-        <main class="photo__main main-photo">
-            <div class="main-photo__wrapper wrapper">
-                <h1 class="main-photo__title _title">Фото и видео полетов на Paraplana.net</h1>
+        <main class="media__main main-media">
+            <div class="main-media__wrapper wrapper">
+                <h1 class="main-media__title _title">Фото и видео полетов на Paraplana.net</h1>
 
-                <section class="main-photo__video video">
-                    <h2 class="video__title _sub-title">Видео</h2>
-                    <div class="video__items">
-                        <div class="video__item">
-                            <iframe title="видео полетов на паралете" src="https://www.youtube.com/embed/nuhcz0a61r8" loading="lazy" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                <section class="media__video video-media">
+                    <h2 class="video-media__title _sub-title">Видео</h2>
+                    <div class="video-media__items">
+                        <div class="video-media__item">
+                                <div data-lazy-video class="video-media__video video">
+                                    <a class="video__link _exc" href="https://www.youtube.com/embed/nuhcz0a61r8" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source srcset="https://i.ytimg.com/vi_webp/nuhcz0a61r8/maxresdefault.webp" type="image/webp">
+                                            <img class="video__media" src="https://i.ytimg.com/vi/nuhcz0a61r8/maxresdefault.jpg" alt="Полеты 1 ноября 2021" loading="lazy">    
+                                        </picture>
+                                    </a>
+                                    <button class="video__button" aria-label="Play video">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path class="video__button-shape"
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                            </path>
+                                            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                         </svg>
+                                    </button>
+                                </div>
+                        </div>            
+                        <div class="video-media__item">
+                                <div data-lazy-video class="video-media__video video">
+                                    <a class="video__link _exc" href="https://www.youtube.com/embed/KknxuoxOBCw" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source srcset="https://i.ytimg.com/vi_webp/KknxuoxOBCw/sddefault.webp" type="image/webp">
+                                            <img class="video__media" src="https://i.ytimg.com/vi/KknxuoxOBCw/sddefault.jpg" alt="Обучение. В Великий Устюг" loading="lazy">    
+                                        </picture>
+                                    </a>
+                                    <button class="video__button" aria-label="Play video">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path class="video__button-shape"
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                            </path>
+                                            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                         </svg>
+                                    </button>
+                                </div>
                         </div>
-                        <div class="video__item">
-                            <iframe title="видео полетов на паралете" src="https://www.youtube.com/embed/h4W9RwKHLfM" loading="lazy"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen=""></iframe>
+                        <div class="video-media__item">
+                                <div data-lazy-video class="video-media__video video">
+                                    <a class="video__link _exc" href="https://www.youtube.com/embed/h4W9RwKHLfM" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source srcset="https://i.ytimg.com/vi_webp/h4W9RwKHLfM/maxresdefault.webp" type="image/webp">
+                                            <img class="video__media" src="https://i.ytimg.com/vi/h4W9RwKHLfM/maxresdefault.jpg" alt="Зарисовка парамото" loading="lazy">    
+                                        </picture>
+                                    </a>
+                                    <button class="video__button" aria-label="Play video">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path class="video__button-shape"
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                            </path>
+                                            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                         </svg>
+                                    </button>
+                                </div>
                         </div>
-                        <div class="video__item">
-                            <iframe title="видео полетов на паралете" src="https://www.youtube.com/embed/KknxuoxOBCw" loading="lazy"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen=""></iframe>
-                        </div>
-                        <div class="video__item">
-                            <iframe title="видео полетов на паралете" src="https://www.youtube.com/embed/SOvetNLn8k0" loading="lazy"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen=""></iframe>
+                        <div class="video-media__item">
+                                <div data-lazy-video class="video-media__video video">
+                                    <a class="video__link _exc" href="https://www.youtube.com/embed/SOvetNLn8k0" target="_blank" rel="noopener noreferrer">
+                                        <picture>
+                                            <source srcset="https://i.ytimg.com/vi_webp/SOvetNLn8k0/maxresdefault.webp" type="image/webp">
+                                            <img class="video__media" src="https://i.ytimg.com/vi/SOvetNLn8k0/maxresdefault.jpg" alt="Полеты весна 2021. Облет паралета" loading="lazy">    
+                                        </picture>
+                                    </a>
+                                    <button class="video__button" aria-label="Play video">
+                                        <svg width="68" height="48" viewBox="0 0 68 48">
+                                            <path class="video__button-shape"
+                                                d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                            </path>
+                                            <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                         </svg>
+                                    </button>
+                                </div>
                         </div>
                     </div>
-                    <p class="video__text">
+                    <p class="video-media__text">
                         Больше видео на нашем YouTube канале: <a href="https://www.youtube.com/user/MrSlavyan/videos"
                             target="_blank" rel="noopener noreferrer" title="смотреть на YouTube">смотреть</a>
                     </p>
                 </section>
-                <section class="main-photo__images images">
-                    <h2 class="images__title _sub-title">
+
+                <section class="media__images images-media">
+                    <h2 class="images-media__title _sub-title">
                         И немного фотографий
                     </h2>
-                    <div class="images__items" id="fa">
+                    <div class="images-media__items" id="fa">
 
                         <a href="img/spare-parts/skiing.jpg" target="_blank" rel="noopener noreferrer">
                             <picture>
@@ -215,7 +267,7 @@
             </div>
         </main>
 
-        <footer class="footer photo__footer">
+        <footer class="footer media__footer">
     <div class="footer__wrapper wrapper">
         <div class="footer__body">
             <div class="footer__links">
@@ -242,7 +294,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -262,7 +313,7 @@
     
 
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220125220710"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220202192432"></script>
 <script>
     Fancybox.bind("#fa a", {
         groupAll: true,
@@ -270,7 +321,7 @@
 </script>
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
 </body>
 
 </html>

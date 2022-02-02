@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="Одноместный паралет Оса. Цена, характеристики, фотографии и видео" />
     <title>Paraplana.net - Трайк Оса</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
@@ -102,13 +101,25 @@
                         </a>
                     </div>
                 </div>
-                <div class="main-single__video">
-                    <div class="main-single__items">
-                        <div class="main-single__item">
-                            <iframe title="трайк Оса на youtube" src="https://www.youtube.com/embed/89NIzdxLwV4" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+                <div class="main-single__videos">
+                    <div class="main-single__video-container">
+                        <div data-lazy-video class="main-single__video video">
+                            <a class="video__link _exc" href="https://www.youtube.com/embed/89NIzdxLwV4" target="_blank" rel="noopener noreferrer">
+                                <picture>
+                                    <source srcset="https://i.ytimg.com/vi_webp/89NIzdxLwV4/sddefault.webp" type="image/webp">
+                                    <img class="video__media" src="https://i.ytimg.com/vi/89NIzdxLwV4/sddefault.jpg" alt="Трайк Оса с двигателем Lifan" loading="lazy">
+                                </picture>
+                            </a>
+                            <button class="video__button" aria-label="Play video">
+                                <svg width="68" height="48" viewBox="0 0 68 48">
+                                    <path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                    </path>
+                                    <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                </svg>
+                            </button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </main>
@@ -140,7 +151,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -160,7 +170,7 @@
 
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
 </body>
 
 </html>

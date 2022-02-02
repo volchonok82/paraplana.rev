@@ -4,16 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
     <meta name="Description" content="Основные парапланы trike-2 и джамбо-5" />
     <title>Paraplana.net - Парапланы</title>
     <link rel="preload" as="image" href="img/sky_bg.webp">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220125220710" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700&display=swap&subset=cyrillic-ext&_v=20220202192432" rel="stylesheet" />
 
     
     
 
-    <link rel="stylesheet" href="css/style.min.css?_v=20220125220710">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220202192432">
     <link rel="icon" href="img/propeller_favicon.png">
 </head>
 
@@ -88,42 +87,61 @@
                         Высокая скорость, легие клеванты, уверенный полёт в турбулентность, повышеный запас прочности,
                         вилка 150-320 кг.
                     </p>
-                    <div class="main-paraplan__links">
-                        <a href="img/paraplan/trike-2.jpg" title="посмотреть увеличенную фотографию" target="_blank"
-                            rel="noopener noreferrer">
-                            <picture>
-                                <source srcset="img/paraplan/trike-2_mini.webp" type="image/webp">
-                                <img src="img/paraplan/trike-2_mini.jpg" alt="параплан trike-2, вид снизу">
-                            </picture>
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=fPkKYpyuBtk&t=28s" title="посмотреть видео на youtube"
-                            target="_blank" rel="noopener noreferrer">
-                            <picture>
-                                <source srcset="img/paraplan/trike-2vid.webp" type="image/webp">
-                                <img src="img/paraplan/trike-2vid.jpg" alt="изображение параплана и слово видео">
-                            </picture>
-                        </a>
+                    <div class="main-paraplan__media">
+                        <div class="main-paraplan__media-item">
+                            <a href="img/paraplan/trike-2.jpg" title="посмотреть увеличенную фотографию" target="_blank"
+                                rel="noopener noreferrer">
+                                <picture>
+                                    <source srcset="img/paraplan/trike-2_mini.webp" type="image/webp">
+                                    <img src="img/paraplan/trike-2_mini.jpg" alt="параплан trike-2, вид снизу" loading="lazy">
+                                </picture>
+                            </a>
+                        </div>
+                       <div class="main-paraplan__media-item">
+                            <div data-lazy-video class="main-paraplan__video video">
+                                <a class="video__link _exc" href="https://www.youtube.com/embed/fPkKYpyuBtk" target="_blank" rel="noopener noreferrer">
+                                    <picture>
+                                        <source srcset="https://i.ytimg.com/vi_webp/fPkKYpyuBtk/maxresdefault.webp" type="image/webp">
+                                        <img class="video__media" src="https://i.ytimg.com/vi/fPkKYpyuBtk/maxresdefault.jpg" alt="Параплан Trike-2 от ASA-Paragliding" loading="lazy">    
+                                    </picture>
+                                </a>
+                                <button class="video__button" aria-label="Play video">
+                                    <svg width="68" height="48" viewBox="0 0 68 48">
+                                        <path class="video__button-shape"
+                                            d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                        </path>
+                                        <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                     </svg>
+                                </button>
+                            </div>
+                       </div>
                     </div>
+
                     <h3>Стандартные расцветки:</h3>
-                    <div class="main-paraplan__links">    
-                        <a href="img/paraplan/trike-2-color.jpg" title="посмотреть увеличенную фотографию"
-                            target="_blank" rel="noopener noreferrer">
-                            <picture>
-                                <source srcset="img/paraplan/trike-2-color_mini.webp" type="image/webp">
-                                <img src="img/paraplan/trike-2-color_mini.jpg"
-                                    alt="параплан трехцветный: бело-сине-красный">
-                            </picture>
-                        </a>
-                        <a href="img/paraplan/trike-2-standart-color.jpg" title="посмотреть увеличенную фотографию"
-                            target="_blank" rel="noopener noreferrer">
-                            <picture>
-                                <source srcset="img/paraplan/trike-2-standart-color_mini.webp" type="image/webp">
-                                <img src="img/paraplan/trike-2-standart-color_mini.jpg"
-                                    alt="шесть парапланов с разными расцветками">
-                            </picture>
-                        </a>
+                    <div class="main-paraplan__media">    
+                      <div class="main-paraplan__media-item">
+                            <a href="img/paraplan/trike-2-color.jpg" title="посмотреть увеличенную фотографию"
+                                target="_blank" rel="noopener noreferrer">
+                                <picture>
+                                    <source srcset="img/paraplan/trike-2-color_mini.webp" type="image/webp">
+                                    <img src="img/paraplan/trike-2-color_mini.jpg"
+                                        alt="параплан трехцветный: бело-сине-красный" loading="lazy">
+                                </picture>
+                            </a>
+                      </div>
+                      <div class="main-paraplan__media-item">
+                            <a href="img/paraplan/trike-2-standart-color.jpg" title="посмотреть увеличенную фотографию"
+                                target="_blank" rel="noopener noreferrer">
+                                <picture>
+                                    <source srcset="img/paraplan/trike-2-standart-color_mini.webp" type="image/webp">
+                                    <img src="img/paraplan/trike-2-standart-color_mini.jpg"
+                                        alt="шесть парапланов с разными расцветками" loading="lazy">
+                                </picture>
+                            </a>
+                      </div>
                     </div>
                 </section>
+
                 <section class="main-paraplan__jambo">
                     <h2 class="main-paraplan__sub-title _sub-title">
                         Новый моторный тандемный параплан "ДЖАМБО-5" площадью 42&nbsp;кв.м. от&nbsp;<a href="http://www.asa-paragliding.ru" target="_blank" rel="noopener noreferrer">ASA</a>
@@ -131,21 +149,34 @@
                     <p class="main-paraplan__text">
                         Применение жёстких вставок в воздухозаборники позволили максимально упростить старт.
                     </p>
-                    <div class="main-paraplan__links">
-                        <a href="img/paraplan/jambo.jpg" title="посмотреть увеличенную фотографию" target="_blank"
-                            rel="noopener noreferrer">
-                            <picture>
-                                <source srcset="img/paraplan/jambo_mini.webp" type="image/webp">
-                                <img src="img/paraplan/jambo_mini.jpg" alt="параплан jambo, вид снизу">
-                            </picture>
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=ComJWO0dJRI" title="посмотреть видео" target="_blank"
-                            rel="noopener noreferrer">
-                            <picture>
-                                <source srcset="img/paraplan/jambo-video.webp" type="image/webp">
-                                <img src="img/paraplan/jambo-video.jpg" alt="изображение параплана и слово видео">
-                            </picture>
-                        </a>
+                    <div class="main-paraplan__media">
+                       <div class="main-paraplan__media-item">
+                            <a href="img/paraplan/jambo.jpg" title="посмотреть увеличенную фотографию" target="_blank"
+                                rel="noopener noreferrer">
+                                <picture>
+                                    <source srcset="img/paraplan/jambo_mini.webp" type="image/webp">
+                                    <img src="img/paraplan/jambo_mini.jpg" alt="параплан jambo, вид снизу" loading="lazy">
+                                </picture>
+                            </a>
+                       </div>
+                      <div class="main-paraplan__media-item">
+                            <div data-lazy-video class="main-paraplan__video video">
+                                <a class="video__link _exc" href="https://www.youtube.com/embed/ComJWO0dJRI" target="_blank" rel="noopener noreferrer">
+                                    <picture>
+                                        <source srcset="https://i.ytimg.com/vi_webp/ComJWO0dJRI/maxresdefault.webp" type="image/webp">
+                                        <img class="video__media" src="https://i.ytimg.com/vi/ComJWO0dJRI/maxresdefault.jpg" alt="Джамбо 4 мото-техническое видео, взлет-полет-посадка" loading="lazy">    
+                                    </picture>
+                                </a>
+                                <button class="video__button" aria-label="Play video">
+                                    <svg width="68" height="48" viewBox="0 0 68 48">
+                                        <path class="video__button-shape"
+                                            d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z">
+                                        </path>
+                                        <path class="video__button-icon" d="M 45,24 27,14 27,34"></path>
+                                     </svg>
+                                </button>
+                            </div>
+                      </div>
                     </div>
                 </section>
             </div>
@@ -178,7 +209,6 @@
                 </a>
             </div>
             <div class="footer__bottom">
-              
                 <a class="footer__metrik" href="http://top.mail.ru/jump?from=1702789" target="_blank"
                     rel="noopener noreferrer">
                     <img src="//top-fwz1.mail.ru/counter?id=1702789;t=131" alt="Рейтинг@Mail.ru">
@@ -198,7 +228,7 @@
 
 
 
-<script src="js/script.min.js?_v=20220125220710"></script>
+<script src="js/script.min.js?_v=20220202192432"></script>
 </body>
 
 </html>
